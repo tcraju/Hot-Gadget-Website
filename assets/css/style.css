@@ -1,0 +1,221 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* css reset code end */
+
+/* Header area start */
+.navbar-area {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: 135px;
+}
+
+.navbar-nav {
+    margin-right: -0.5rem;
+    /* Thlis margin is for adjusting navbar padign*/
+}
+
+/* Header area end */
+
+/*Slider Area Start*/
+.slider-area {
+    background-image: url(../images/slider-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 760px;
+    padding-top: 120px;
+    margin-top: -50px;
+}
+
+/* Carousel Indicator Start */
+.carousel-indicators {
+    position: absolute;
+    top: 550px;
+}
+
+.carousel-indicators li {
+    background-color: #CECECE;
+    border-radius: 15px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    width: 20px;
+    height: 10px;
+    transition: width .5s;
+}
+
+.carousel-indicators .active {
+    background-color: #FFA530;
+    border-radius: 15px;
+    width: 40px;
+    height: 10px;
+    transition: width .5s;
+}
+
+/* Carousel Indicator End */
+
+/* Slider text area  start */
+.slider-text-area {
+    padding-top: 135px;
+}
+
+.slider-text-area h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.slider-text-area p {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+button {
+    text-transform: uppercase;
+    border-radius: 10px !important;
+}
+
+button i {
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+/* this button properites is also active for smartphone & Laptop area btn*/
+/* Slider text area  end */
+
+/* Carousel previous and next icon(fontawesome) start */
+.carousel-control-prev span i,
+.carousel-control-next span i {
+    color: #E0E0E0;
+    font-size: 50px;
+}
+
+.carousel-control-next {
+    position: absolute;
+    right: -120px;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    left: -120px;
+}
+
+/* Carousel previous and next icon (fontawesome) End */
+
+/* Smartphone & Laptop Area start*/
+.smartphone-area,
+.laptop-area {
+    margin-bottom: 50px
+}
+
+.smartphone-area p,
+.laptop-area p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.smartphone-area a,
+.laptop-area a {
+    color: #FFA530;
+}
+
+.smartphone-area-text-header,
+.laptop-area-text-header {
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 540px;
+    border: none;
+    box-shadow: 0px 0px 15px #E9EBEC;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    padding: 50px;
+    width: 90%;
+    height: 55%;
+    margin: 0px auto;
+}
+
+.card-title {
+    margin-top: -30px
+}
+
+.card-body button {
+    margin-bottom: 10px;
+}
+
+/* Smartphone & Laptop Area End*/
+
+/* Catagory Area Start*/
+.catagory-area h1 {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.catagory-area h1::after {
+    position: absolute;
+    width: 140px;
+    height: 8px;
+    content: "";
+    background-image: linear-gradient(to right, #FFCA1C, #FF9C35);
+    border-radius: 5px;
+    left: 50%;
+    margin-left: -70px;
+    bottom: -25px;
+}
+
+.catagory-images-area {
+    height: 520px;
+}
+
+.ctg-column-1 img {
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    box-shadow: 0px 0px 30px #c6cacc;
+    border-radius: 0px 40px;
+    margin-top: 65%;
+
+}
+
+.ctg-column-2 img {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    width: 85%;
+    height: auto;
+    padding: 50px;
+    box-shadow: 0px 0px 30px #c6cacc;
+    margin-bottom: 65px;
+    border-radius: 40px 0px;
+}
+
+.ctg-column-3 img {
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* Catagory Area End*/
