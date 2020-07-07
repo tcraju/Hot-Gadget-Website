@@ -1,7 +1,7 @@
 /*Medium Layout: 1200px*/
 @media only screen and (min-width:992px) and (max-width:1200px){
     .slider-text-area {
-        padding-top: 85px;
+        padding-top: 70px;
     }
     .slider-area{
         height: 600px;
@@ -24,19 +24,44 @@
     .slider-area{
         height: 500px;
     }
-    .carousel-control-prev , .carousel-control-next{
+    /*.carousel-control-prev , .carousel-control-next{
         
-    }
+    }*/
 }
 
 
 /*Mobile Layout: 320px*/
 @media only screen and (max-width:767px){
-    
+    .slider-text-area {
+    padding-top: 0px;
+}
+.slider-text-area h1 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.carousel-item button{
+    display: none;
+}
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+.carousel-item img{
+    width: 85% !important;
+}
+.slider-text-area p {
+    margin-bottom: 10px;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 520px;
+}
+
 }
 
 /* Wide Mobile Layout: 320px*/
 @media only screen and (min-wedth:480px) and (max-width:767px){
+
     
 }
 
